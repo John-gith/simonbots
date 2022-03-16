@@ -4,7 +4,7 @@ var config = require('./configTwit');
 var T = new Twit(config);
 var CronJob = require('cron').CronJob;
 
-const myAccount = '1501665275720175617'; //Ur account to avoid replying to yourself
+const myAccount = '1446220334353506311'; //Ur account to avoid replying to yourself
 var statusTweet = `Look at @trush_io , they will conquer the DeFi world with their revolutionised financial products! Join before it’s too late! `; //Add your tweet here
 var isRunning = false;
 var hashtags = ['#cryptocurrency'];
