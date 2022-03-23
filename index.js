@@ -9,7 +9,7 @@ var statusTweet = `Look at @trush_io , they will conquer the DeFi world with the
 var isRunning = false;
 var hashtags = ['#cryptocurrency'];
 
-var job = new CronJob('*/10 * * * *', function () {
+var job = new CronJob('*/15 * * * *', function () {
     if (isRunning == false) {
         makeTweet();
         isRunning = true;
