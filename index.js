@@ -5,9 +5,9 @@ var T = new Twit(config);
 var CronJob = require('cron').CronJob;
 
 const myAccount = '1446220334353506311'; //Ur account to avoid replying to yourself
-var statusTweet = `Look at @trush_io , they will conquer the DeFi world with their revolutionised financial products! Join before it’s too late! `; //Add your tweet here
+var statusTweet = `Visit @trush_io , they will conquer the DeFi world and merge their revolutionised financial products with Web3 and NFTs! Join before it’s too late! `; //Add your tweet here
 var isRunning = false;
-var hashtags = ['#cryptocurrency'];
+var hashtags = ['#NFT'];
 
 var job = new CronJob('*/15 * * * *', function () {
     if (isRunning == false) {
