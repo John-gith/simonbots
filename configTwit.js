@@ -1,8 +1,8 @@
 module.exports = {
-    consumer_key: 'GQVoWkqJqVw775JOjNaTbLOMI',
-    consumer_secret: 'CNAEWjeSLxt3FfpcxPAmVXw6ClHLd0uv7CRtt1KOblzSOBQvdx',
-    access_token: '1501665275720175617-NYGJVG6xaFF2ixypZumHgUXUU2Gj2R',
-    access_token_secret: 'b6BEY6nQTG5EbBWY3QeB5xoyfHWuh9ukiH50e7GgM0Hgf',
+    consumer_key: 'Z6brYQyuhECtXs71JifXMyyKq',
+    consumer_secret: 'dNmUeMTUaHoAgrHJjVMtFkYkcFeCZ7jOgXdlwjNdLKso9Pbgsp',
+    access_token: '1501665275720175617-UDnFvasgmYcHQBk5ve3SQtnMOHum23',
+    access_token_secret: 'ATogW5m71oG89RS8lrmbqLohrN5dgqFqTU5thSMBNL58O',
     timeout_ms: 60 * 1000,  // optional HTTP request timeout to apply to all requests.
     //strictSSL:            true,     // optional - requires SSL certificates to be valid.
 }
